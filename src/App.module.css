@@ -1,0 +1,128 @@
+@import "./vars.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 3rem 3rem 0rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.titleContainer {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.date {
+  font-family: var(--font-P);
+  letter-spacing: 0.1rem;
+  color: rgb(90, 90, 90);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-family: var(--font-H);
+  font-weight: 500;
+}
+
+.imagesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  max-width: 40px;
+}
+
+.hero {
+  max-width: 80ch;
+}
+
+p {
+  color: rgb(90, 90, 90);
+  font-family: var(--font-P);
+  line-height: 1.7rem;
+}
+
+.subHero {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.titleItalic {
+  font-size: 1rem;
+  font-style: italic;
+  font-family: var(--font-H);
+  font-weight: 600;
+}
+
+.heroimg {
+  width: 650px;
+}
+
+.heroFinal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80ch;
+  margin: 3rem 0;
+}
+
+.title2 {
+  font-size: 1rem;
+  font-style: italic;
+  font-family: var(--font-H);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.containerLeft {
+  max-width: 45ch;
+}
+
+hr {
+  border: 1px solid rgb(233, 233, 233);
+  margin-bottom: 1rem;
+}
+
+.guestions {
+  font-family: var(--font-H);
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.creators {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.names {
+  font-size: 0.7rem;
+  font-family: var(--font-P);
+  color: black;
+  font-weight: 700;
+}
