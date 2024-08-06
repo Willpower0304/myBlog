@@ -4,6 +4,12 @@ import { getImageUrl } from "./utils";
 function App() {
   return (
     <>
+      <nav>
+        <h1 className={styles.pageName}>
+          BLOG <span className={styles.pageNameStyle}>UNIVERSE</span>
+        </h1>
+        <hr className={styles.line} />
+      </nav>
       <body className={styles.all}>
         <div className={styles.titleContainer}>
           <p className={styles.date}>6 AUG 2024</p>
@@ -20,14 +26,12 @@ function App() {
         </div>
         <section className={styles.hero}>
           <p>
-            <span>
-              ¿Te imaginas cómo eran los programas hace unas décadas?{" "}
-            </span>
-            Bueno, más allá de los juegos de texto y los primeros procesadores
-            de texto, lo que realmente destacaba era la impredectibilidad. Los
-            programas se estrellaban con frecuencia, tenían bugs por doquier y
-            la idea de una actualización que mejorara el rendimiento era algo de
-            ciencia ficción.
+            <span className={styles.first}>T</span>e imaginas cómo eran los
+            programas hace unas décadas? Bueno, más allá de los juegos de texto
+            y los primeros procesadores de texto, lo que realmente destacaba era
+            la impredectibilidad. Los programas se estrellaban con frecuencia,
+            tenían bugs por doquier y la idea de una actualización que mejorara
+            el rendimiento era algo de ciencia ficción.
           </p>
           <br />
           <p>
