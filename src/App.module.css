@@ -56,7 +56,7 @@ nav {
   font-family: var(--font-P);
   letter-spacing: 0.1rem;
   color: rgb(90, 90, 90);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .title {
@@ -157,6 +157,10 @@ hr {
   align-items: center;
   margin-top: 1rem;
   gap: 1rem;
+}
+
+.avatar {
+  width: 40px;
 }
 
 .names {

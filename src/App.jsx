@@ -107,7 +107,11 @@ function App() {
                 conocer?
               </h3>
               <div className={styles.creators}>
-                <img src={getImageUrl("Home/user.png")} alt="avatar-profile" />
+                <img
+                  className={styles.avatar}
+                  src={getImageUrl("Home/user.svg")}
+                  alt="avatar-profile"
+                />
                 <p className={styles.names}>AUTHOR: WILLIAM, DANIEL, GABRIEL</p>
               </div>
             </div>
@@ -117,7 +121,7 @@ function App() {
           <div>
             <img
               className={styles.components}
-              src={getImageUrl("Home/corazon.png")}
+              src={getImageUrl("Home/heart.svg")}
               alt="corazon"
             />
             <p>621 LIKES</p>
@@ -125,7 +129,7 @@ function App() {
           <div>
             <img
               className={styles.components}
-              src={getImageUrl("Home/share.png")}
+              src={getImageUrl("Home/share.svg")}
               alt="shrare"
             />
             <p>SHARE</p>
