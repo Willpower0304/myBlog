@@ -4,9 +4,9 @@ import { getImageUrl } from "./utils";
 function App() {
   return (
     <>
-      <body>
+      <body className={styles.all}>
         <div className={styles.titleContainer}>
-          <p className={styles.date}>5 AUG 2024</p>
+          <p className={styles.date}>6 AUG 2024</p>
           <h1 className={styles.title}>
             Evolución Histórica de la Calidad del Software
           </h1>
@@ -104,23 +104,35 @@ function App() {
               </h3>
               <div className={styles.creators}>
                 <img src={getImageUrl("Home/user.png")} alt="avatar-profile" />
-                <hp className={styles.names}>
-                  AUTHOR: WILLIAM - DANIEL - GABRIEL
-                </hp>
+                <p className={styles.names}>AUTHOR: WILLIAM, DANIEL, GABRIEL</p>
               </div>
             </div>
           </div>
         </section>
-        <div>
-          <img src={getImageUrl("Home/corazon.png")} alt="corazon" />
-          <p>621 LIKES</p>
-          <img src={getImageUrl("Home/share.png")} alt="shrare" />
-          <p>Share</p>
+        <div className={styles.links}>
+          <div>
+            <img
+              className={styles.components}
+              src={getImageUrl("Home/corazon.png")}
+              alt="corazon"
+            />
+            <p>621 LIKES</p>
+          </div>
+          <div>
+            <img
+              className={styles.components}
+              src={getImageUrl("Home/share.png")}
+              alt="shrare"
+            />
+            <p>SHARE</p>
+          </div>
         </div>
-        <footer>
-          <p>@ 2024 Page Design by: William Espinoza</p>
-        </footer>
       </body>
+      <footer>
+        <p className={styles.copyright}>
+          @2024 Page Design by: William Espinoza
+        </p>
+      </footer>
     </>
   );
 }
