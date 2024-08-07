@@ -137,9 +137,15 @@ function App() {
         </div>
       </body>
       <footer>
-        <p className={styles.copyright}>
-          @2024 Page Design by: William Espinoza
-        </p>
+        <div className={styles.footerContainer}>
+          <h1 className={styles.pageName}>
+            BLOG <span className={styles.pageNameStyle}>UNIVERSE</span>
+          </h1>
+          <p className={styles.copyright}>
+            @ 2024 all rights to: William Espinoza.
+          </p>
+        </div>
+        <hr />
       </footer>
     </>
   );
