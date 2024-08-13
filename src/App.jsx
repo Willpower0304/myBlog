@@ -99,6 +99,20 @@ function App() {
                 más estructurado y ágil. Y lo mejor de todo es que este viaje
                 sigue en marcha.
               </p>
+              <br />
+              <p>
+                Bibliografias:
+                <p>
+                  - Prezi, A. D. O. (s. f.). EVOLUCION DE LA CALIDAD DEL
+                  SOFTWARE. prezi.com.
+                  https://prezi.com/yzedeabbemxv/evolucion-de-la-calidad-del-software/
+                </p>
+                <p>
+                  - Moreno, Ó. (2019, 6 agosto). La evolución de la calidad del
+                  software en estos últimos 10 años. excentia.
+                  https://www.excentia.es/evolucion-calidad-software
+                </p>
+              </p>
             </div>
             <div className={styles.containerRight}>
               <hr />
